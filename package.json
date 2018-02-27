@@ -45,18 +45,5 @@
     "prestart": "npm run build",
     "dev": "react-scripts start"
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
-  "main": "index.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/julienbck/order-app-pre-prod.git"
-  },
-  "author": "Bock Julien",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/julienbck/order-app-pre-prod/issues"
-  },
-  "homepage": "https://github.com/julienbck/order-app-pre-prod#readme",
   "proxy": "http://localhost:5000"
 }
