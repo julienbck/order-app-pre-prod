@@ -1,6 +1,6 @@
 {
-  "name": "app-user-order",
-  "version": "0.1.0",
+  "name": "app-order-manager",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
     "body-parser": "^1.18.2",
@@ -44,5 +44,17 @@
     "prestart": "npm run build",
     "dev": "react-scripts start"
   },
-  "proxy": "http://localhost:5000"
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julienbck/order-app-pre-prod.git"
+  },
+  "author": "Bock Julien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julienbck/order-app-pre-prod/issues"
+  },
+  "homepage": "https://github.com/julienbck/order-app-pre-prod#readme"
 }
