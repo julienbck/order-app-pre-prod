@@ -12,6 +12,8 @@ const deleteOrderByClient = require ('./database/delete_order.js');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+app.use("/static", express.static(path.join(__dirname, "../build/static")));
+
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Methods", "GET,PUT,POST,DELETE,OPTIONS");
@@ -21,6 +23,7 @@ app.use(function(req, res, next) {
   );
   next();
 });
+
 
 app.post("/api/insertclientdetails", function(request, result) {
   insertClientDetailsInDB.insertClientDetails(request.body)

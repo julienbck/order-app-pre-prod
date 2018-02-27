@@ -34,7 +34,8 @@
     "redux-form": "^7.2.3",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0",
-    "slugify": "^1.2.9"
+    "slugify": "^1.2.9",
+    "uuid": "^3.2.1"
   },
   "scripts": {
     "start": "node server/server.js",
@@ -56,5 +57,6 @@
   "bugs": {
     "url": "https://github.com/julienbck/order-app-pre-prod/issues"
   },
-  "homepage": "https://github.com/julienbck/order-app-pre-prod#readme"
+  "homepage": "https://github.com/julienbck/order-app-pre-prod#readme",
+  "proxy": "http://localhost:5000"
 }
